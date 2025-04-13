@@ -55,10 +55,13 @@ const DocumentUpload = () => {
     setError("");
 
     try {
-      const response = await fetch("http://localhost:5000/articles", {
-        method: "POST",
-        body: formData,
-      });
+      const response = await fetch(
+        "https://ajani-backend-5oot.onrender.com/articles",
+        {
+          method: "POST",
+          body: formData,
+        }
+      );
 
       if (response.ok) {
         setMessage("Document uploaded and article created successfully!");
