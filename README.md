@@ -42,7 +42,7 @@ Start the development server:
 npm run dev
 ```
 
-The app will be available at `https://ajani-admin.vercel.app/`.
+The app will be available at `https://ajani-admin.vercel.app/`
 
 ---
 
